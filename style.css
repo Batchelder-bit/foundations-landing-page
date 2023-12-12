@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-links {
+    background-color: #1F2937;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.main-text {
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: lightgray;
+}
+
+.header-links ul {
+    gap: 20px;
+}
+
+.hero-section {
+    display: flex;
+    background: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    gap: 150px;
+}
+
+.hero-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 8px;
+}
+
+.hero-left-side .main-text {
+    font-size: 48px;
+}
+
+.hero-left-side button {
+    background: royalblue;
+    border: 1px royalblue;
+    color: white;
+    max-width: 100px;
+}
+
+.hero-right-side {
+    background-color: darkgray;
+    padding: 100px;
+}
+
+.layer-one {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 40px;
+}
+
+.layer-two {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+.middle-infographic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.image-box img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.layer-three {
+    text-align: left;
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.middle-paragraph {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.signature {
+    text-align: end;
+    padding-right: 150px;
+    padding-bottom: 130px;
+    background-color: lightgray;
+}
+
+.layer-four {
+    background: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    margin: 100px 200px;
+    gap: 15px;
+    padding: 50px;
+    font-size: 28px;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
